@@ -1,0 +1,119 @@
+/* Contact Section */
+.contact-section {
+  position: relative;
+  padding: 5rem 0;
+}
+
+.contact-title {
+  font-family: var(--font-display);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.contact-card-wrapper {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.contact-card {
+  padding: clamp(2rem, 4vw, 3rem);
+  text-align: center;
+}
+
+.contact-heading {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+  color: var(--text-primary);
+  font-family: var(--font-display);
+  letter-spacing: -0.01em;
+}
+
+.contact-body {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: var(--text-secondary);
+  margin-bottom: 2rem;
+}
+
+/* Contact Info Area */
+.contact-info-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.contact-info-item {
+  padding: 1rem 1.5rem;
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(8px);
+  border-radius: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.contact-icon {
+  font-size: 1.25rem;
+}
+
+.contact-details {
+  text-align: left;
+}
+
+.contact-label {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  display: block;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.contact-value-primary {
+  font-size: 0.9rem;
+  color: var(--primary-color);
+  font-weight: 500;
+}
+
+.contact-value-secondary {
+  font-size: 0.9rem;
+  color: var(--secondary-color);
+  font-weight: 500;
+}
+
+/* Action Buttons */
+.contact-actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.contact-link {
+  text-decoration: none;
+}
+
+.contact-btn-primary {
+  padding: 0.875rem 2.5rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px -4px rgba(79, 70, 229, 0.4);
+}
+
+.contact-btn-outline {
+  border-color: var(--glass-border);
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(8px);
+  color: var(--primary-color);
+  padding: 0.875rem 2.5rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  border-radius: 12px;
+  border-width: 1.5px;
+}
