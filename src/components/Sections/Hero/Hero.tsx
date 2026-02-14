@@ -11,7 +11,7 @@ const Hero: React.FC = () => {
             <div className='float photo-wrapper'>
               <div className='photo-overlay' />
               <img
-                src='/profile-photo.jpeg'
+                src={`${import.meta.env.BASE_URL}profile-photo.jpeg`}
                 alt='Vinay Kumar Reddy Satti'
                 loading='eager'
                 className='profile-image'
