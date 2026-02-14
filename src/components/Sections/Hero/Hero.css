@@ -141,7 +141,35 @@
 }
 
 @media (max-width: 768px) {
+  .hero-card {
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+    padding: 2.5rem 1.5rem;
+  }
+
   .hero-photo-col {
-    display: none;
+    display: block;
+    width: 160px;
+    margin: 0 auto;
+  }
+
+  .hero-details-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .info-chips-container {
+    justify-content: center;
+  }
+
+  .hero-actions {
+    justify-content: center;
+  }
+
+  .hero-description {
+    margin-left: auto;
+    margin-right: auto;
   }
 }
