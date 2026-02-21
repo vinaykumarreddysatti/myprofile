@@ -14,7 +14,7 @@ const SEO: React.FC<SEOProps> = ({
   description = 'Full-Stack Developer & Tech Lead with 9.5 years of experience in React, Flutter, Spring Boot, and Node.js. Specializing in enterprise banking transformations and micro-frontend architectures.',
   keywords = 'Vinay Kumar Reddy Satti, Full-Stack Developer, Tech Lead, React, Flutter, Spring Boot, Node.js, Micro-frontends, Banking Transformation',
   image = `${import.meta.env.BASE_URL}profile-photo.jpeg`, // Default to profile photo which we know exists
-  url = 'https://vinaychaitu.com', // Replace with actual URL if known, else usage default
+  url = 'https://myprofile.remeeinfotech.com', // Replace with actual URL if known, else usage default
 }) => {
   const siteTitle = 'Vinay Kumar Reddy Satti';
 
